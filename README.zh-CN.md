@@ -10,14 +10,15 @@
   </a>
 </p>
 
-English | [简体中文](./README.zh-CN.md)
-## Introduction
+简体中文 | [English](./README.md)
+<!--  -->
+## 简介
 
-[qiuzi-hospital-server](https://github.com/qiuziGirl/qiuzi-hospital-server) is a node project for hospital clients, as my graduation design. As a back-end server, it provides API services to three clients, such as the hospital administrator client, the doctor client and the patient client.
+[qiuzi-hospital-server](https://github.com/qiuziGirl/qiuzi-hospital-server) 是我的毕业设计项目。作为一个 Node 服务，它为三个客户端提供接口服务。这三个接口服务分别为医院管理端、医院医生操作端和病人服务端。
 
-- [Preview](https://hospital.qiuzi.fun)
-- [API Document](./assets/API.md)
-- [Database File](./assets/hospital.sql)
+- [预览](https://hospital.qiuzi.fun)
+- [API 文档](./assets/API.md)
+- [数据库文件](./assets/hospital.sql)
 
 ## Getting started
 
@@ -41,3 +42,4 @@ npm run dev or yarn dev
 npm start
 npm stop
 ```
+
