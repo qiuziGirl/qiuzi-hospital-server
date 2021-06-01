@@ -7,6 +7,7 @@ module.exports = app => {
 
   router.get('/', controller.home.index)
 
+  router.resources(`${prefix}/department`, controller.department)
   router.resources(`${prefix}/appointment`, controller.appointment)
 
   router.post(`${prefix}/admin/login`, controller.admin.login)
