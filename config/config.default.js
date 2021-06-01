@@ -45,6 +45,8 @@ module.exports = appInfo => {
     secret: conf.secret.jwt
   }
 
+  config.defaultPassword = conf.defaultPassword
+
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + conf.secret.appKey
 
