@@ -5,6 +5,7 @@ module.exports = app => {
   const { router, controller } = app
   const prefix = app.locals.api
 
+  router.resources(`${prefix}/hospital`, controller.hospital)
   router.resources(`${prefix}/department`, controller.department)
   router.resources(`${prefix}/appointment`, controller.appointment)
 
