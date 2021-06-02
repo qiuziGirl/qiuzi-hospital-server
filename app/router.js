@@ -19,6 +19,8 @@ module.exports = app => {
   router.get(`${prefix}/patient/info`, controller.patient.getInfo)
   router.resources(`${prefix}/patient`, controller.patient)
 
+  router.resources(`${prefix}/quota`, controller.quota)
+
   router.post(`${prefix}/admin/login`, controller.admin.login)
   router.post(`${prefix}/admin/logout`, controller.admin.logout)
   router.get(`${prefix}/admin/info`, controller.admin.getInfo)
