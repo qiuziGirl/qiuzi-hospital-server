@@ -25,4 +25,7 @@ module.exports = app => {
   router.post(`${prefix}/admin/logout`, controller.admin.logout)
   router.get(`${prefix}/admin/info`, controller.admin.getInfo)
   router.resources(`${prefix}/admin`, controller.admin)
+
+  router.post(`${prefix}/record/create/:id`, controller.record.create)
+  router.resources(`${prefix}/record`, controller.record)
 }
