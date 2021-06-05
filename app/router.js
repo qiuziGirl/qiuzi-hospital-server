@@ -22,6 +22,11 @@ module.exports = app => {
 
   router.resources(`${prefix}/quota`, controller.quota)
 
+  router.get(`${prefix}/work-plan/time-list`, controller.workPlan.timeList)
+  router.get(`${prefix}/work-plan/doctor-list`, controller.workPlan.doctorList)
+  router.get(`${prefix}/work-plan/update-status`, controller.workPlan.updateStatus)
+  router.resources(`${prefix}/work-plan`, controller.workPlan)
+
   router.post(`${prefix}/admin/login`, controller.admin.login)
   router.post(`${prefix}/admin/logout`, controller.admin.logout)
   router.get(`${prefix}/admin/info`, controller.admin.getInfo)
