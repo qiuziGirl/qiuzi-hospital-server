@@ -8,27 +8,27 @@
     "declarations": true
   },
   "dependencies": {
-    "dayjs": "^1.10.5",
-    "egg": "^2.15.1",
+    "dayjs": "^1.11.8",
+    "egg": "^3.10.0",
     "egg-jwt": "^3.1.7",
-    "egg-oss": "^2.0.0",
-    "egg-scripts": "^2.11.0",
+    "egg-oss": "^3.1.0",
+    "egg-scripts": "^2.14.0",
     "egg-sequelize": "^6.0.0",
     "egg-validate": "^2.0.2",
-    "mysql2": "^2.2.5",
-    "utility": "^1.17.0"
+    "mysql2": "^3.2.0",
+    "utility": "^1.18.0"
   },
   "devDependencies": {
-    "autod": "^3.0.1",
+    "autod": "^3.1.2",
     "autod-egg": "^1.1.0",
-    "egg-bin": "^4.11.0",
-    "egg-ci": "^1.11.0",
-    "egg-mock": "^3.21.0",
-    "eslint": "^7.27.0",
+    "egg-bin": "^6.1.0",
+    "egg-ci": "^1.19.1",
+    "egg-mock": "^4.2.1",
+    "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0"
+    "eslint-plugin-promise": "^5.2.0"
   },
   "engines": {
     "node": ">=10.0.0"
