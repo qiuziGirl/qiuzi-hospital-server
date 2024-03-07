@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/eggjs/egg">
-    <img src="https://img.shields.io/badge/egg-2.15.1-brightgreen.svg" alt="egg" >
+    <img src="https://img.shields.io/badge/egg-3.10.0-brightgreen.svg" alt="egg" >
   </a>
   <a href="https://github.com/eggjs/egg-sequelize">
     <img src="https://img.shields.io/badge/egg--sequelize-6.0.0-brightgreen.svg" alt="egg-sequelize" >
