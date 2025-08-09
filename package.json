@@ -16,7 +16,7 @@
     "egg-sequelize": "^6.0.0",
     "egg-validate": "^2.0.2",
     "mysql2": "^3.14.3",
-    "utility": "^1.18.0"
+    "utility": "^2.3.0"
   },
   "devDependencies": {
     "autod": "^3.1.2",

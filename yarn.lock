@@ -7844,7 +7844,7 @@ utility@^1.12.0, utility@^1.13.1, utility@^1.14.0, utility@^1.15.0, utility@^1.1
     mz "^2.7.0"
     unescape "^1.0.1"
 
-utility@^1.17.0, utility@^1.18.0:
+utility@^1.17.0:
   version "1.18.0"
   resolved "https://registry.npmmirror.com/utility/-/utility-1.18.0.tgz#af55f62e6d5a272e0cb02b0ab3e7f37c46435f36"
   integrity sha512-PYxZDA+6QtvRvm//++aGdmKG/cI07jNwbROz0Ql+VzFV1+Z0Dy55NI4zZ7RHc9KKpBePNFwoErqIuqQv/cjiTA==
@@ -7863,7 +7863,7 @@ utility@^2.1.0:
     escape-html "^1.0.3"
     unescape "^1.0.1"
 
-utility@^2.2.0:
+utility@^2.2.0, utility@^2.3.0:
   version "2.5.0"
   resolved "https://registry.npmmirror.com/utility/-/utility-2.5.0.tgz#8fc8078d7d0bb35982db2eb95651632a7071bc5a"
   integrity sha512-lDbOVde5UAKgtxrSyZNhqrTA7f7anba6DTqbsDWgUFk6PZlmr7djqPYw0FnL5a6TbJvRt38VmYqt07zVLzXG2A==
