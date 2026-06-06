@@ -104,7 +104,9 @@ class AdminService extends Service {
       where: filterAdmin
     })
 
-    await admin.update({ lastLoginTime: new Date() })
+    if (admin) {
+      await admin.update({ lastLoginTime: new Date() })
+    }
 
     return admin
   }

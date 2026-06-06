@@ -15,7 +15,7 @@
 
 [qiuzi-hospital-server](https://github.com/qiuziGirl/qiuzi-hospital-server) 是我的毕业设计项目。作为一个 Node 服务，它为三个客户端提供接口服务。这三个接口服务分别为医院管理端、医院医生操作端和病人服务端。
 
-- [预览](https://hospital.qiuzi.fun)
+- [预览](https://hospital.qiuzi.online)
 - [API 文档](./assets/API.md)
 - [数据库文件](./assets/hospital.sql)
 

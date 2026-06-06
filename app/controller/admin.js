@@ -115,7 +115,7 @@ class AdminController extends Controller {
       const token = app.jwt.sign({ id: admin.id, name: admin.name }, app.config.jwt.secret, { expiresIn: '24h' })
       ctx.body = { data: { token }, message: '登录成功', code: 0 }
     } else {
-      ctx.body = { message: '登录失败', code: 4004 }
+      ctx.body = { message: '登录失败，账号或密码错误', code: 4004 }
     }
   }
 
