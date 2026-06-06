@@ -15,7 +15,7 @@ English | [简体中文](./README.zh-CN.md)
 
 [qiuzi-hospital-server](https://github.com/qiuziGirl/qiuzi-hospital-server) is a node project for hospital clients, as my graduation design. As a back-end server, it provides API services to three clients, such as the hospital administrator client, the doctor client and the patient client.
 
-- [Preview](https://hospital.qiuzi.fun)
+- [Preview](https://hospital.qiuzi.online)
 - [API Document](./assets/API.md)
 - [Database File](./assets/hospital.sql)
 
