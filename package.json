@@ -34,7 +34,7 @@
     "node": ">=20.19.0"
   },
   "scripts": {
-    "start": "egg-scripts start --ignore-stderr --daemon --title=egg-server-qiuzi-hospital-server",
+    "start": "egg-scripts start --ignore-stderr --title=egg-server-qiuzi-hospital-server",
     "stop": "egg-scripts stop --title=egg-server-qiuzi-hospital-server",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
